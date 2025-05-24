@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ImageDownloadApps from "../images/imageDownload.png";
+import ImageDownloadApps from "../../public/images/imageDownload.png";
 
 const DownloadApps = () => {
   return (

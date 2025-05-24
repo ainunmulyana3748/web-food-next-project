@@ -1,7 +1,7 @@
 import React from "react";
-import choose from "../images/choose.png";
-import prepareFood from "../images/prepareFood.png";
-import deliver from "../images/deliver.png";
+import choose from "../../public/images/choose.png";
+import prepareFood from "../../public/images/prepareFood.png";
+import deliver from "../../public/images/deliver.png";
 import CardOrdertoDoorstep from "./CardOrdertoDoorstep";
 
 const OrdertoDoorstep = () => {

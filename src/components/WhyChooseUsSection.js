@@ -1,6 +1,6 @@
-import iconCardOne from "../images/iconCardOne.png";
-import iconCardTwo from "../images/iconCardTwo.png";
-import iconCardThree from "../images/iconCardThree.png";
+import iconCardOne from "../../public/images/iconCardOne.png";
+import iconCardTwo from "../../public/images/iconCardTwo.png";
+import iconCardThree from "../../public/images/iconCardThree.png";
 import CardWhyChooseUs from "./CardWhyChooseUs";
 
 const WhyChooseUsSection = () => {
