@@ -7,7 +7,7 @@ import { Button } from "@/componentsShacdn/ui/button";
 import { Card, CardContent } from "@/componentsShacdn/ui/card";
 import { Input } from "@/componentsShacdn/ui/input";
 import { Label } from "@/componentsShacdn/ui/label";
-import ImageAlwaysReadyToServe from "../assets/ImageAlwaysReadyToServe.png";
+import ImageAlwaysReadyToServe from "../images/ImageAlwaysReadyToServe.png";
 import { usePathname } from "next/navigation";
 
 const AuthLayout = ({

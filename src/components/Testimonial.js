@@ -1,7 +1,7 @@
 import React from "react";
-import TestimoniOne from "../assets/testimonialOne.png";
-import TestimoniTwo from "../assets/testimonialTwo.png";
-import TestimoniThree from "../assets/testimonialThree.png";
+import TestimoniOne from "../images/testimonialOne.png";
+import TestimoniTwo from "../images/testimonialTwo.png";
+import TestimoniThree from "../images/testimonialThree.png";
 import CardTestimonial from "./CardTestimonial";
 import {
   Carousel,

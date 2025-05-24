@@ -1,8 +1,8 @@
 import React from "react";
-import ImageAlwaysReadyToServe from "../assets/ImageAlwaysReadyToServe.png";
+import ImageAlwaysReadyToServe from "../images/ImageAlwaysReadyToServe.png";
 import Image from "next/image";
-import TwentyFourHour from "../assets/24hours.png";
-import Order from "../assets/order.png";
+import TwentyFourHour from "../images/24hours.png";
+import Order from "../images/order.png";
 
 const AlwaysReadyToServe = () => {
   return (
