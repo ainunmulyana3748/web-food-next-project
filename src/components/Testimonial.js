@@ -1,7 +1,4 @@
 import React from "react";
-import TestimoniOne from "../../public/images/testimonialOne.png";
-import TestimoniTwo from "../../public/images/testimonialTwo.png";
-import TestimoniThree from "../../public/images/testimonialThree.png";
 import CardTestimonial from "./CardTestimonial";
 import {
   Carousel,
@@ -15,7 +12,7 @@ const Testimonial = () => {
   const dataCardTestimoni = [
     {
       id: 1,
-      img: TestimoniOne,
+      img: "/images/testimonialOne.png",
       name: "Selena Gomz",
       age: "22",
       testimoni:
@@ -23,7 +20,7 @@ const Testimonial = () => {
     },
     {
       id: 2,
-      img: TestimoniTwo,
+      img: "/images/testimonialTwo.png",
       name: "David Ken",
       age: "24",
       testimoni:
@@ -31,7 +28,7 @@ const Testimonial = () => {
     },
     {
       id: 3,
-      img: TestimoniThree,
+      img: "/images/testimonialThree.png",
       name: "Selena Gomz",
       age: "22",
       testimoni:
@@ -39,7 +36,7 @@ const Testimonial = () => {
     },
     {
       id: 4,
-      img: TestimoniOne,
+      img: "/images/testimonialOne.png",
       name: "Selena Gomz",
       age: "22",
       testimoni:
@@ -47,7 +44,7 @@ const Testimonial = () => {
     },
     {
       id: 5,
-      img: TestimoniTwo,
+      img: "/images/testimonialTwo.png",
       name: "David Ken",
       age: "24",
       testimoni:
@@ -55,7 +52,7 @@ const Testimonial = () => {
     },
     {
       id: 6,
-      img: TestimoniThree,
+      img: "/images/testimonialThree.png",
       name: "Selena Gomz",
       age: "22",
       testimoni:

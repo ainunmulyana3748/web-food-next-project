@@ -1,6 +1,3 @@
-import iconCardOne from "../../public/images/iconCardOne.png";
-import iconCardTwo from "../../public/images/iconCardTwo.png";
-import iconCardThree from "../../public/images/iconCardThree.png";
 import CardWhyChooseUs from "./CardWhyChooseUs";
 
 const WhyChooseUsSection = () => {
@@ -9,19 +6,19 @@ const WhyChooseUsSection = () => {
       id: 1,
       title: "Healthy Cooking",
       desc: "Healthy cooking is a blend of creativity and nutrition, where vibrant ingredients",
-      img: iconCardOne,
+      img: "/images/iconCardOne.png",
     },
     {
       id: 2,
       title: "#1 Healthy Cooked Food",
       desc: "Recognized as the number one ingredient for vitality and well-being for our customers",
-      img: iconCardTwo,
+      img: "/images/iconCardTwo.png",
     },
     {
       id: 3,
       title: "100 Top Food Brand",
       desc: "We are one of the best brands in the Food and for our beloved customers in the world",
-      img: iconCardThree,
+      img: "/images/iconCardThree.png",
     },
   ];
 

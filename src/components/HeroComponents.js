@@ -1,6 +1,4 @@
 import Image from "next/image";
-import heroImage from "../../public/images/heroImage.png";
-import playButton from "../../public/images/playButton.png";
 
 const HeroComponents = () => {
   return (
@@ -38,7 +36,7 @@ const HeroComponents = () => {
 
               <button className="flex items-center text-white">
                 <Image
-                  src={playButton}
+                  src="/images/playButton.png"
                   alt="Play Button"
                   width={96}
                   height={96}
@@ -53,9 +51,10 @@ const HeroComponents = () => {
           {/* Image */}
           <div className="hidden lg:block w-full md:w-1/2">
             <Image
-              src={heroImage}
+              src="/images/heroImage.png"
               alt="Hero Image"
               width={600}
+              height={400}
               className="w-full h-auto object-contain"
               priority
             />

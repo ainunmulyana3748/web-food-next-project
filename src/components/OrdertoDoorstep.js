@@ -1,28 +1,25 @@
 import React from "react";
-import choose from "../../public/images/choose.png";
-import prepareFood from "../../public/images/prepareFood.png";
-import deliver from "../../public/images/deliver.png";
 import CardOrdertoDoorstep from "./CardOrdertoDoorstep";
 
 const OrdertoDoorstep = () => {
   const dataCard = [
     {
       id: 1,
-      img: choose,
+      img: "/images/choose.png",
       title: "CHOOSE",
       desc: "Explore a diverse menu curated for your tastes and dietary needs. Select your favorites with ease and place order",
     },
 
     {
       id: 2,
-      img: prepareFood,
+      img: "/images/prepareFood.png",
       title: "PREPARE FOOD",
       desc: "Our culinary artisans spring into action, crafting each dish with meticulous care and the freshest ingredients",
     },
 
     {
       id: 3,
-      img: deliver,
+      img: "/images/deliver.png",
       title: "DELIVER",
       desc: "Sit back and relax as our dedicated team orchestrates a seamless delivery experience. Ready to be savored and enjoyed!",
     },

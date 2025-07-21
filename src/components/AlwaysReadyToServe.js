@@ -1,8 +1,5 @@
 import React from "react";
-import ImageAlwaysReadyToServe from "../../public/images/ImageAlwaysReadyToServe.png";
 import Image from "next/image";
-import TwentyFourHour from "../../public/images/24hours.png";
-import Order from "../../public/images/order.png";
 
 const AlwaysReadyToServe = () => {
   return (
@@ -11,7 +8,7 @@ const AlwaysReadyToServe = () => {
         {/* Image Section */}
         <div className="lg:w-1/2 w-full">
           <Image
-            src={ImageAlwaysReadyToServe}
+            src="/images/ImageAlwaysReadyToServe.png"
             alt="ImageAlwaysReadyToServe"
             width={600}
             height={600}
@@ -42,7 +39,7 @@ const AlwaysReadyToServe = () => {
           <div className="flex sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-10">
             <div className="flex items-center gap-2">
               <Image
-                src={TwentyFourHour}
+                src="/images/24hours.png"
                 alt="TwentyFourHour"
                 width={36}
                 height={36}
@@ -52,7 +49,7 @@ const AlwaysReadyToServe = () => {
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <Image src={Order} alt="Order" width={36} height={36} />
+              <Image src="/images/order.png" alt="Order" width={36} height={36} />
               <span className="font-semibold text-sm md:text-base">
                 24/7 Service
               </span>

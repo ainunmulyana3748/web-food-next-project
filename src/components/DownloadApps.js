@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import ImageDownloadApps from "../../public/images/imageDownload.png";
 
 const DownloadApps = () => {
   return (
@@ -55,8 +54,10 @@ const DownloadApps = () => {
           {/* Image Section */}
           <div className="w-full md:w-[55%] hidden md:flex relative z-0 h-[600px]">
             <Image
-              src={ImageDownloadApps}
+              src="/images/imageDownload.png"
               alt="Fresh Feast App"
+              width={400}
+              height={650}
               className="absolute -right-10 -top-20 h-[650px] w-auto transform rotate-[5deg] 
           hover:rotate-0 transition-transform duration-500 shadow-2xl rounded-3xl
           hover:scale-105 cursor-pointer animate-float"

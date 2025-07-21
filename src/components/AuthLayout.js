@@ -7,7 +7,6 @@ import { Button } from "@/componentsShacdn/ui/button";
 import { Card, CardContent } from "@/componentsShacdn/ui/card";
 import { Input } from "@/componentsShacdn/ui/input";
 import { Label } from "@/componentsShacdn/ui/label";
-import ImageAlwaysReadyToServe from "../../public/images/ImageAlwaysReadyToServe.png";
 import { usePathname } from "next/navigation";
 
 const AuthLayout = ({
@@ -238,7 +237,7 @@ const AuthLayout = ({
             <div className="relative hidden bg-gradient-to-br from-orange-400 to-amber-400 md:block">
               <div className="absolute inset-0 bg-black/20 mix-blend-multiply" />
               <Image
-                src={ImageAlwaysReadyToServe}
+                src="/images/ImageAlwaysReadyToServe.png"
                 alt="Food Preparation"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
