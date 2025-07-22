@@ -24,7 +24,7 @@ const Testimonial = () => {
       name: "David Ken",
       age: "24",
       testimoni:
-        "I can't thank Fresh Feast enough for simplifying my busy lifestyle. With their meals, I no longer have to sacrifice health for convenience. Highly recommend!",
+        "I can&apos;t thank Fresh Feast enough for simplifying my busy lifestyle. With their meals, I no longer have to sacrifice health for convenience. Highly recommend!",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ const Testimonial = () => {
       name: "David Ken",
       age: "24",
       testimoni:
-        "I can't thank Fresh Feast enough for simplifying my busy lifestyle. With their meals, I no longer have to sacrifice health for convenience. Highly recommend!",
+        "I can&apos;t thank Fresh Feast enough for simplifying my busy lifestyle. With their meals, I no longer have to sacrifice health for convenience. Highly recommend!",
     },
     {
       id: 6,
@@ -76,7 +76,7 @@ const Testimonial = () => {
           <div className="w-24 h-1 bg-green-300 mx-auto mb-6"></div>
           <p className="text-green-100 text-lg">
             We are very happy if you are satisfied with our service and
-            products, let's read pure reviews from customers
+            products, let&#39;s read pure reviews from customers
           </p>
         </div>
 

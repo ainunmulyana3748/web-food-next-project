@@ -31,7 +31,7 @@ const WhyChooseUsSection = () => {
             Your <span className="text-green-600">Healthy</span> Food
           </h2>
           <p className="text-[#6C6C6C] max-w-xl mx-auto">
-            We're committed to cook healthy to ensure they retain their
+            We&apos;re committed to cook healthy to ensure they retain their
             freshness and nutritional value, guaranteeing a delightful
             experience
           </p>
